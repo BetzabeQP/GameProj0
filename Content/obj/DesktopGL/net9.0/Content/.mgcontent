@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Betzabe/Game-Proj0/Content/Bear.png</File>
+    <File>C:/Users/Betzabe/Game-Proj0/Content/Bird.png</File>
+    <File>C:/Users/Betzabe/Game-Proj0/Content/Roboto.spritefont</File>
+    <File>C:/Users/Betzabe/Game-Proj0/Content/Tree.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
