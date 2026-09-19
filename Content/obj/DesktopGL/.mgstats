@@ -1,1 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"c:/Users/Betzabe/Game-Proj0/Content/Bear.png","c:/Users/Betzabe/Game-Proj0/Content/bin/DesktopGL/Bear.xnb","TextureProcessor","Texture2DContent",433,6485,0.2333784
+"c:/Users/Betzabe/Game-Proj0/Content/Bird.png","c:/Users/Betzabe/Game-Proj0/Content/bin/DesktopGL/Bird.xnb","TextureProcessor","Texture2DContent",2247,49237,0.0263537
+"c:/Users/Betzabe/Game-Proj0/Content/Roboto.spritefont","c:/Users/Betzabe/Game-Proj0/Content/bin/DesktopGL/Roboto.xnb","FontDescriptionProcessor","SpriteFontContent",2069,70681,0.1869307
+"c:/Users/Betzabe/Game-Proj0/Content/Tree.png","c:/Users/Betzabe/Game-Proj0/Content/bin/DesktopGL/Tree.xnb","TextureProcessor","Texture2DContent",542,8277,0.0099258

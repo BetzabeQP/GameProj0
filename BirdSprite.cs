@@ -20,9 +20,14 @@ namespace Game_Proj0
         private Texture2D texture;
         public Direction Direction; 
 
+        private const float RADIUS = 16;
+
         private short frame = 0;
 
+        private const short MAXFRAMES = 3;
+
         private double changeFrame;
+
 
         public Vector2 Postion;
         public void LoadContent(ContentManager content)
@@ -70,13 +75,29 @@ namespace Game_Proj0
             }
 
         }
+        public bool Collides(Rectangle rect)
+        {
+            int SpriteCenterX= (int)this.Postion.X;// + (int)RADIUS;
+            int SpriteCenterY= (int)this.Postion.Y;// + (int)RADIUS;
+            int xMin = rect.X - (int)RADIUS;
+            int yMin = rect.Y - (int)RADIUS;
+            int xMax =  xMin + rect.Width + (int)RADIUS * 2;
+            int yMax = yMin  + rect.Height + (int)RADIUS * 2;
+            if(yMin <= SpriteCenterY && SpriteCenterY <= yMax && xMin <= SpriteCenterX && SpriteCenterX <= xMax)
+            {
+                return true;
+            }
+            else return false;
+
+        }
+
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             changeFrame += gameTime.ElapsedGameTime.TotalSeconds;
             if(changeFrame > 0.5)
             {
                 frame++;
-                if(frame > 1) frame = 0;
+                if(frame > MAXFRAMES) frame = 0;
                 changeFrame -= 0.5;
             }
             Rectangle source = new Rectangle(0,0,32,32);
@@ -86,17 +107,17 @@ namespace Game_Proj0
                     source.Y = 32;
                     break;
                 case Direction.Up:
-                    source.X = 32;
+                    source.X = 96;
                     source.Y = 32;
                     break;
                 case Direction.Left:
                     break;
                 case Direction.Right:
-                    source.X = 32;
+                    source.X = 96;
                     break;   
             }
-            
-            spriteBatch.Draw(texture, Postion, source,Color.White);
+            source.X = frame * 32;
+            spriteBatch.Draw(texture, Postion, source,Color.White, 0,new Vector2(16, 16), 0.9f, SpriteEffects.None, 0);
         }
     }
 }

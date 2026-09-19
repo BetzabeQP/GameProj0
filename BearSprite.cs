@@ -12,11 +12,13 @@ namespace Game_Proj0{
     private KeyboardState keyboardState;
     private Texture2D texture;
 
-    private Vector2 position = new Vector2(200, 200);
+    private Vector2 position = new Vector2(100, 100);
+
+    public Rectangle bearBox = new Rectangle(0, 0, 20, 36);
 
     private bool flipped;
     /// <summary>
-    /// The color to blend of the ghost
+    /// The color to blend of the bear
     /// </summary>
     public Color Color {get;set;} = Color.White;
 
@@ -40,11 +42,13 @@ namespace Game_Proj0{
             position += new Vector2(1,0);
             flipped = false;
         }
+        bearBox.X = (int)position.X- bearBox.Width/2;
+        bearBox.Y = (int)position.Y- bearBox.Height/2;
     }
     public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
     {
         SpriteEffects spriteEffects = (flipped) ? SpriteEffects.FlipHorizontally : SpriteEffects.None;
-        spriteBatch.Draw(texture, position, null,Color, 0,new Vector2(32, 32), 0.9f, spriteEffects, 0);
+        spriteBatch.Draw(texture, position, null,Color, 0,new Vector2(16, 25), 0.9f, spriteEffects, 0);
     }
     }    
 }

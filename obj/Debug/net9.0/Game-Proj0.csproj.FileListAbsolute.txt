@@ -1,3 +1,7 @@
+C:\Users\Betzabe\Game-Proj0\bin\Debug\net9.0\Content\Bear.xnb
+C:\Users\Betzabe\Game-Proj0\bin\Debug\net9.0\Content\Bird.xnb
+C:\Users\Betzabe\Game-Proj0\bin\Debug\net9.0\Content\Roboto.xnb
+C:\Users\Betzabe\Game-Proj0\bin\Debug\net9.0\Content\Tree.xnb
 C:\Users\Betzabe\Game-Proj0\bin\Debug\net9.0\Game-Proj0.exe
 C:\Users\Betzabe\Game-Proj0\bin\Debug\net9.0\Game-Proj0.deps.json
 C:\Users\Betzabe\Game-Proj0\bin\Debug\net9.0\Game-Proj0.runtimeconfig.json
@@ -28,13 +32,10 @@ C:\Users\Betzabe\Game-Proj0\obj\Debug\net9.0\Game-Proj0.GeneratedMSBuildEditorCo
 C:\Users\Betzabe\Game-Proj0\obj\Debug\net9.0\Game-Proj0.AssemblyInfoInputs.cache
 C:\Users\Betzabe\Game-Proj0\obj\Debug\net9.0\Game-Proj0.AssemblyInfo.cs
 C:\Users\Betzabe\Game-Proj0\obj\Debug\net9.0\Game-Proj0.csproj.CoreCompileInputs.cache
+C:\Users\Betzabe\Game-Proj0\obj\Debug\net9.0\Game-Proj0.sourcelink.json
 C:\Users\Betzabe\Game-Proj0\obj\Debug\net9.0\Game-Proj0.csproj.Up2Date
 C:\Users\Betzabe\Game-Proj0\obj\Debug\net9.0\Game-Proj0.dll
 C:\Users\Betzabe\Game-Proj0\obj\Debug\net9.0\refint\Game-Proj0.dll
 C:\Users\Betzabe\Game-Proj0\obj\Debug\net9.0\Game-Proj0.pdb
 C:\Users\Betzabe\Game-Proj0\obj\Debug\net9.0\Game-Proj0.genruntimeconfig.cache
 C:\Users\Betzabe\Game-Proj0\obj\Debug\net9.0\ref\Game-Proj0.dll
-C:\Users\Betzabe\Game-Proj0\bin\Debug\net9.0\Content\Bear.xnb
-C:\Users\Betzabe\Game-Proj0\bin\Debug\net9.0\Content\Bird.xnb
-C:\Users\Betzabe\Game-Proj0\bin\Debug\net9.0\Content\Tree.xnb
-C:\Users\Betzabe\Game-Proj0\bin\Debug\net9.0\Content\Roboto.xnb
